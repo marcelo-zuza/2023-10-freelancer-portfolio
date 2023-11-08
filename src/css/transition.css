@@ -1,0 +1,27 @@
+
+
+.divider {
+    border-bottom: 2px solid #fff; /* Cor da borda branca para contrastar com o fundo preto */
+    border-image: linear-gradient(135deg, #fff 0%, #000 100%);
+    border-image-slice: 1;
+    padding: 10px 0;
+}
+
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#prev, #next {
+    margin-top: 10px;
+}
