@@ -81,7 +81,7 @@
                     </div>
                 </div>
             </div>
-            <div class="hidden md:block col-span-1 pl-8 md:pl-0 w-full md:relative overflow-hidden">
+            <div class="hidden md:block col-span-1 pl-8 md:pl-0 w-full md:relative overflow-hidden .fade-in-element third-element">
                 <!--Carrossel-->
                 <div class="carousel-fade">
                     <div class="carousel-item md:absolute h-60 w-60 md:w-full md:h-full flex items-center justify-center opacity-0 transition-opacity duration-700">
@@ -106,7 +106,7 @@
                     <p class="block md:hidden text-center md:text-left text-xl font-extrabold md:text-xl text-white py-0 -mb-2 md:py-0">MARCELO ZUZA</p>
                     <p class="block md:hidden text-center md:text-left text-xl font-extrabold md:text-xl text-white py-0 -mb-2 md:py-0">WEB DEVELOPMENT</p>
                 </div>
-                <a href="#" class="bg-sky-600 text-white py-4 px-4 rounded-full border-white">Conheça mais</a>
+                <a href="#about" class="bg-sky-600 text-white py-4 px-4 rounded-full border-white">Conheça mais</a>
             </div>
 
 
@@ -122,7 +122,7 @@
     <section class="bg-neutral-900 text-white py-16 px-4 md:py-20 md:px-8 md:-mb-10" id="about">
         <div class="grid grid-cols-1 md:grid-cols-2 md:gap-4">
             <div class="col-span-1 grid grid-cols-1 place-items-center md:place-content-start">
-                <img class="h-full" src="./src/img/responsiveWebSite-sky600-neutral900-cut.jpg.jpg" alt="">
+                <img class="h-full" id="animateDiv" src="./src/img/responsiveWebSite-sky600-neutral900-cut.jpg.jpg" alt="">
             </div>
 
             <div class="col-span-1 text-center md:text-left md:pt-12">
@@ -210,10 +210,10 @@
             </div>
         </div>
         <div class="hidden md:grid grid-cols-1 place-items-center my-4">
-            <a href="#" class="bg-sky-600 text-2xl md:py-4 md:px-10 rounded-full border-white  text-white hover:bg-white hover:text-color-2 duration-500">Veja mais</a>
+            <a href="./projects.html" class="bg-sky-600 text-2xl md:py-4 md:px-10 rounded-full border-white  text-white hover:bg-white hover:text-color-2 duration-500">Veja mais</a>
         </div>
         <div class="grid md:hidden grid-cols-1 place-items-center my-4 py-12">
-            <a href="#" class="bg-sky-600 text-white py-4 px-4 rounded-full border-white -mt-12">Veja meus projetos</a>
+            <a href="./projects.html" class="bg-sky-600 text-white py-4 px-4 rounded-full border-white -mt-12">Veja meus projetos</a>
         </div>
     </section>
 
@@ -222,24 +222,23 @@
         <p class="text-4xl text-center md:text-left py-2">Contato</p>
 
         <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8 py-4">
-            <div class="col-span-1">
-                <img class="h-full" src="./src/img/shaking-cut.jpg" alt="">
+            <div class="col-span-1 grid place-items-center">
+                <img class="h-3/4" src="./src/img/shaking-cut.jpg" alt="">
             </div>
-            <div class="col-span-1">
+            <div class="col-span-1 md:p-4 md:border-2 rounded-xl bg-neutral-900">
                 <p class="text-2xl text-center py-2">Entre em contato para um orçamento</p>
                 <div class="grid grid-cols-2 gap-4 md:gap-0 md:grid-cols-2 place-items-center p-4 text-center md:text-left">
-                    <div class="col-span-1 py-4 md:py-0">
-                        <div class="grid grid-cols-1 place-items-center max-h-40">
-                            <a class="" href="#"><img class="h-24 md:h-32" src="./src/img/icons/whatsapp.png" alt=""></a>
+                    <div class="col-span-1 py-4 px-4 md:py-0 border-white border-2 md:border-0 rounded-xl h-80 md:h-60">
+                        <div class="grid grid-cols-1 place-items-center">
+                            <a class="" href="https://wa.me/5534991646500/"><img class="h-14 md:h-28" src="./src/img/icons/whatsapp.png" alt=""></a>
                         </div>
                         <p class="py-2 text-xl">Fale diretamente pelo WhatsApp</p>
                     </div>
-                    <div class="col-span-1 py-4 md:py-0">
-                        <div class="grid grid-cols-1 place-items-center max-h-40">
-                            <a class="" href="#"><img class="h-24 md:h-32" src="./src/img/icons/fiverr.png" alt=""></a>
+                    <div class="col-span-1 py-4 px-4 md:py-0 border-white border-2 md:border-0 rounded-xl h-80 md:h-60">
+                        <div class="grid grid-cols-1 place-items-center py-4">
+                            <a class="" href="https://br.fiverr.com/marcelo_zuza"><img class="h-14 md:h-28" src="./src/img/icons/fiverr.png" alt=""></a>
                         </div>
-                        <p class="pt-2 text-xl">Conheça os preços e serviços</p>
-                        <p class="pt-0 text-xl">pela minha conta no Fiverr</p>
+                        <p class="pt-2 text-xl">Conheça minha seção no Fiverr</p>
                     </div>
                 </div>
             </div>
@@ -254,7 +253,7 @@
             <div class="py-2">
                 <img class="h-16" src="./src/img/logo-neutral900-cut.jpg" alt="">
             </div>
-            <p class="text-white md:text-xl hover:underline duration-700"><a href=""><span class="font-bold text-sky-600">Marcelo Zuza Web Development©</span></a></p>
+            <p class="text-white md:text-xl hover:underline duration-700"><a href="https://www.linkedin.com/company/marcelo-zuza-webdevelopment/"><span class="font-bold text-sky-600">Marcelo Zuza Web Development©</span></a></p>
             <p class="text-base">Todos os direitos reservados. <span class="font-bold">2023</span></p>
 
         </div>

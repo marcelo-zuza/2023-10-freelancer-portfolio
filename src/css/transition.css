@@ -25,3 +25,14 @@ img {
 #prev, #next {
     margin-top: 10px;
 }
+
+
+
+
+/* efeito esquerda direita */
+
+/*Animated dic */
+#animateDiv {
+
+    position: relative;
+}

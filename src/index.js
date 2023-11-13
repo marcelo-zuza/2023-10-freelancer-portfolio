@@ -46,3 +46,29 @@ $(document).ready(function() {
         }
     });
   });
+
+// Fade-in de elementos
+  $(document).ready(function() {
+    $('.fade-in-element').css('opacity', 0);
+  
+    $('.first-element').waypoint(function() {
+        $(this.element).animate({ opacity: 1 }, 750);
+    }, {
+        offset: '75%',
+    });
+  
+    $('.second-element').waypoint(function() {
+        $(this.element).animate({ opacity: 1 }, 1200);
+    }, {
+        offset: '95%', 
+        delay: 1000,   
+    });
+  
+    $('.third-element').waypoint(function() {
+      $(this.element).animate({ opacity: 0.75 }, 2000);
+  }, {
+      offset: '75%', 
+      delay: 0,  
+  });
+  });
+
