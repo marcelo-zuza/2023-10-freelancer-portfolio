@@ -58,17 +58,23 @@ $(document).ready(function() {
     });
   
     $('.second-element').waypoint(function() {
-        $(this.element).animate({ opacity: 1 }, 1200);
+        $(this.element).animate({ opacity: 1 }, 1500);
     }, {
         offset: '95%', 
         delay: 1000,   
     });
   
     $('.third-element').waypoint(function() {
-      $(this.element).animate({ opacity: 0.75 }, 2000);
+      $(this.element).animate({ opacity: 0.75 }, 1700);
   }, {
       offset: '75%', 
       delay: 0,  
   });
   });
+  /*  
+ fade-in-element first-element
+ fade-in-element second-element  
+ fade-in-element third-element
+*/
+
 
